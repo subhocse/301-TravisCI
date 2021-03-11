@@ -20,9 +20,9 @@ android:
       - 'google-gdk-license-.+'
 
 before_install:
-
+      - chmod +x gradlew
 before_script:
-  - chmod +x gradlew
+  #- chmod +x gradlew
 
 #script:
 #  - ./gradlew clean build
